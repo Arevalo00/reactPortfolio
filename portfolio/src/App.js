@@ -7,7 +7,7 @@ import Header from './components/header';
 function App() {
   return (
    <div>
-    <Header></Header>
+   <Header></Header>
 
    </div>
   );
