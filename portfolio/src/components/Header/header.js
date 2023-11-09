@@ -20,7 +20,26 @@ const Header = () => {
     
     }, []);
 
-    
+    const handleMediaQueryChange = mediaQuery => {
+        if (mediaQuery.matches) {
+            SetSmallScreen(true)
+            
+        } else {
+            SetSmallScreen(false)
+        }
+    };
+
+    const navToggle = () => {
+        setHeaderVisible(!headerVisible);
+    };
+
+    return(
+        <header>
+            
+        </header>
+    )
+
+
 
  
 };
