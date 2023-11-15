@@ -34,8 +34,9 @@ const Header = () => {
     };
 
     return(
-        <header>
+        <header className="Header">
             
+
         </header>
     )
 
